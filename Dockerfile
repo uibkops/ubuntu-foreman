@@ -20,7 +20,7 @@
 FROM ubuntu:14.04
 MAINTAINER Graham Bevan "graham.bevan@ntlworld.com"
 
-ENV FOREMANVER 1.8
+ENV FOREMANVER 1.13
 ENV DEBIAN_FRONTEND noninteractive
 ENV FOREOPTS --foreman-locations-enabled \
         --enable-foreman-compute-ec2 \
